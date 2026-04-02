@@ -1,16 +1,60 @@
-# React + Vite
+# 🏥 Sepsis Prediction System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered healthcare web application that predicts the risk of **Sepsis** in patients using Machine Learning.  
+This system helps in early detection and assists doctors in taking timely decisions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Demo
+👉 https://sepsis-hazel.vercel.app/login
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Project Overview
+Sepsis is a life-threatening condition caused by infection. Early prediction can save lives.  
+This project uses a trained ML model integrated with a modern web interface to provide real-time risk analysis.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- 🔍 Real-time Sepsis Risk Prediction  
+- 📊 Risk Levels: **Safe / Low / High / Critical**  
+- 👨‍⚕️ Doctor Consultation Interface  
+- 💬 AI Chat Support  
+- 📁 Patient Data Management  
+- 📈 Dashboard with insights  
+
+---
+
+## 🛠 Tech Stack
+
+### 💻 Frontend
+- React (Vite)
+- Tailwind CSS
+- Redux Toolkit
+
+### ⚙️ Backend
+- FastAPI (Python)
+
+### 🔥 Database & Auth
+- Firebase
+
+### 🤖 Machine Learning
+- Scikit-learn
+- Pandas, NumPy
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/Khushi06-Code/Sepsis.git
+cd Sepsis
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Run frontend
+npm run dev
